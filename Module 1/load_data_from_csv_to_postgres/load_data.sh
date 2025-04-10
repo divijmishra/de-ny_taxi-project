@@ -2,7 +2,7 @@ URL_GREEN="https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green
 URL_ZONES="https://github.com/DataTalksClub/nyc-tlc-data/releases/download/misc/taxi_zone_lookup.csv"
 
 docker run -it \
-    --network=homework_default \
+    --network=module1_default \  # Might have to change the network name
     taxi_ingest:v001 \
     --user=postgres \
     --password=postgres \
